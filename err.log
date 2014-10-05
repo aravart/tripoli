@@ -1,0 +1,961 @@
+In file included from src/runner.cpp:2:0:
+include/ben.h:9:12: error: ‘std::invalid_argument’ has not been declared
+In file included from /usr/local/include/fst/weight.h:82:0,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/util.h:25:17: error: ‘unordered_map’ is already declared in this scope
+In file included from /usr/local/include/fst/weight.h:82:0,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/util.h:28:17: error: ‘unordered_set’ is already declared in this scope
+In file included from /usr/local/include/fst/weight.h:82:0,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/util.h:162:1: error: reference to ‘unordered_set’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_set:42:0,
+                 from /usr/local/include/fst/util.h:27,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_set.h:173:11: error: candidates are: template<class _Value, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_set
+In file included from /usr/include/c++/4.7/unordered_set:46:0,
+                 from include/ben.h:13,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_set.h:279:11: error:                 template<class _Value, class _Hash, class _Pred, class _Alloc> class std::unordered_set
+In file included from /usr/local/include/fst/weight.h:82:0,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/util.h:162:1: error: ‘unordered_set’ has not been declared
+/usr/local/include/fst/util.h:162:1: error: expected ‘,’ or ‘...’ before ‘<’ token
+/usr/local/include/fst/util.h: In function ‘std::istream& fst::ReadType(std::istream&, int)’:
+/usr/local/include/fst/util.h:162:1: error: ‘c’ was not declared in this scope
+/usr/local/include/fst/util.h:162:1: error: expected nested-name-specifier before ‘unordered_set’
+/usr/local/include/fst/util.h:162:1: error: expected ‘(’ before ‘unordered_set’
+/usr/local/include/fst/util.h:162:1: error: expected ‘;’ before ‘unordered_set’
+/usr/local/include/fst/util.h:162:1: error: ‘value’ was not declared in this scope
+/usr/local/include/fst/util.h: At global scope:
+/usr/local/include/fst/util.h:164:1: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/weight.h:82:0,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/util.h:164:1: error: ‘unordered_map’ has not been declared
+/usr/local/include/fst/util.h:164:1: error: expected ‘,’ or ‘...’ before ‘<’ token
+/usr/local/include/fst/util.h:164:1: error: redefinition of ‘template<class S, class T, class U> std::istream& fst::ReadType(std::istream&, int)’
+/usr/local/include/fst/util.h:162:1: error: ‘template<class S, class T, class U> std::istream& fst::ReadType(std::istream&, int)’ previously declared here
+/usr/local/include/fst/util.h: In function ‘std::istream& fst::ReadType(std::istream&, int)’:
+/usr/local/include/fst/util.h:164:1: error: ‘c’ was not declared in this scope
+/usr/local/include/fst/util.h:164:1: error: expected nested-name-specifier before ‘unordered_map’
+/usr/local/include/fst/util.h:164:1: error: expected ‘(’ before ‘unordered_map’
+/usr/local/include/fst/util.h:164:1: error: expected ‘;’ before ‘unordered_map’
+/usr/local/include/fst/util.h:164:1: error: ‘value’ was not declared in this scope
+/usr/local/include/fst/util.h: At global scope:
+/usr/local/include/fst/util.h:239:1: error: reference to ‘unordered_set’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_set:42:0,
+                 from /usr/local/include/fst/util.h:27,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_set.h:173:11: error: candidates are: template<class _Value, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_set
+In file included from /usr/include/c++/4.7/unordered_set:46:0,
+                 from include/ben.h:13,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_set.h:279:11: error:                 template<class _Value, class _Hash, class _Pred, class _Alloc> class std::unordered_set
+In file included from /usr/local/include/fst/weight.h:82:0,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/util.h:239:1: error: ‘unordered_set’ does not name a type
+/usr/local/include/fst/util.h:239:1: error: expected ‘,’ or ‘...’ before ‘<’ token
+/usr/local/include/fst/util.h: In function ‘std::ostream& fst::WriteType(std::ostream&, int)’:
+/usr/local/include/fst/util.h:239:1: error: ‘c’ was not declared in this scope
+/usr/local/include/fst/util.h:239:1: error: invalid type in declaration before ‘<’ token
+/usr/local/include/fst/util.h:239:1: error: expected ‘;’ before ‘<’ token
+/usr/local/include/fst/util.h:239:1: error: expected primary-expression before ‘<’ token
+/usr/local/include/fst/util.h:239:1: error: expected primary-expression before ‘,’ token
+/usr/local/include/fst/util.h:239:1: error: expected primary-expression before ‘,’ token
+/usr/local/include/fst/util.h:239:1: error: expected primary-expression before ‘>’ token
+/usr/local/include/fst/util.h:239:1: error: ‘::const_iterator’ has not been declared
+/usr/local/include/fst/util.h:239:1: error: expected ‘;’ before ‘it’
+/usr/local/include/fst/util.h:239:1: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/util.h:239:1: error: expected ‘)’ before ‘;’ token
+/usr/local/include/fst/util.h:239:1: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/util.h:239:1: error: expected ‘;’ before ‘)’ token
+/usr/local/include/fst/util.h: At global scope:
+/usr/local/include/fst/util.h:241:1: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/weight.h:82:0,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/util.h:241:1: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/util.h:241:1: error: expected ‘,’ or ‘...’ before ‘<’ token
+/usr/local/include/fst/util.h:241:1: error: redefinition of ‘template<class S, class T, class U> std::ostream& fst::WriteType(std::ostream&, int)’
+/usr/local/include/fst/util.h:239:1: error: ‘template<class S, class T, class U> std::ostream& fst::WriteType(std::ostream&, int)’ previously declared here
+/usr/local/include/fst/util.h: In function ‘std::ostream& fst::WriteType(std::ostream&, int)’:
+/usr/local/include/fst/util.h:241:1: error: ‘c’ was not declared in this scope
+/usr/local/include/fst/util.h:241:1: error: invalid type in declaration before ‘<’ token
+/usr/local/include/fst/util.h:241:1: error: expected ‘;’ before ‘<’ token
+/usr/local/include/fst/util.h:241:1: error: expected primary-expression before ‘<’ token
+/usr/local/include/fst/util.h:241:1: error: expected primary-expression before ‘,’ token
+/usr/local/include/fst/util.h:241:1: error: expected primary-expression before ‘,’ token
+/usr/local/include/fst/util.h:241:1: error: expected primary-expression before ‘>’ token
+/usr/local/include/fst/util.h:241:1: error: ‘::const_iterator’ has not been declared
+/usr/local/include/fst/util.h:241:1: error: expected ‘;’ before ‘it’
+/usr/local/include/fst/util.h:241:1: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/util.h:241:1: error: expected ‘)’ before ‘;’ token
+/usr/local/include/fst/util.h:241:1: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/util.h:241:1: error: expected ‘;’ before ‘)’ token
+In file included from /usr/local/include/fst/vector-fst.h:30:0,
+                 from /usr/local/include/fst/cache.h:29,
+                 from /usr/local/include/fst/compose.h:29,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/test-properties.h: In function ‘uint64 fst::ComputeProperties(const fst::Fst<A>&, uint64, uint64*, bool)’:
+/usr/local/include/fst/test-properties.h:119:5: error: reference to ‘unordered_set’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_set:42:0,
+                 from /usr/local/include/fst/util.h:27,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_set.h:173:11: error: candidates are: template<class _Value, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_set
+In file included from /usr/include/c++/4.7/unordered_set:46:0,
+                 from include/ben.h:13,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_set.h:279:11: error:                 template<class _Value, class _Hash, class _Pred, class _Alloc> class std::unordered_set
+In file included from /usr/local/include/fst/vector-fst.h:30:0,
+                 from /usr/local/include/fst/cache.h:29,
+                 from /usr/local/include/fst/compose.h:29,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/test-properties.h:119:24: error: expected primary-expression before ‘>’ token
+/usr/local/include/fst/test-properties.h:119:27: error: ‘ilabels’ was not declared in this scope
+/usr/local/include/fst/test-properties.h:120:5: error: reference to ‘unordered_set’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_set:42:0,
+                 from /usr/local/include/fst/util.h:27,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_set.h:173:11: error: candidates are: template<class _Value, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_set
+In file included from /usr/include/c++/4.7/unordered_set:46:0,
+                 from include/ben.h:13,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_set.h:279:11: error:                 template<class _Value, class _Hash, class _Pred, class _Alloc> class std::unordered_set
+In file included from /usr/local/include/fst/vector-fst.h:30:0,
+                 from /usr/local/include/fst/cache.h:29,
+                 from /usr/local/include/fst/compose.h:29,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/test-properties.h:120:24: error: expected primary-expression before ‘>’ token
+/usr/local/include/fst/test-properties.h:120:27: error: ‘olabels’ was not declared in this scope
+/usr/local/include/fst/test-properties.h:131:23: error: expected type-specifier before ‘unordered_set’
+/usr/local/include/fst/test-properties.h:131:23: error: expected ‘;’ before ‘unordered_set’
+/usr/local/include/fst/test-properties.h:133:23: error: expected type-specifier before ‘unordered_set’
+/usr/local/include/fst/test-properties.h:133:23: error: expected ‘;’ before ‘unordered_set’
+In file included from /usr/local/include/fst/state-map.h:34:0,
+                 from /usr/local/include/fst/arcsort.h:30,
+                 from /usr/local/include/fst/accumulator.h:33,
+                 from /usr/local/include/fst/label-reachable.h:32,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/arc-map.h: At global scope:
+/usr/local/include/fst/arc-map.h:957:11: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/state-map.h:34:0,
+                 from /usr/local/include/fst/arcsort.h:30,
+                 from /usr/local/include/fst/accumulator.h:33,
+                 from /usr/local/include/fst/label-reachable.h:32,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/arc-map.h:957:11: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/arc-map.h:960:3: error: ‘Map’ does not name a type
+/usr/local/include/fst/arc-map.h: In member function ‘A fst::GallicToNewSymbolsMapper<A, S>::operator()(const FromArc&)’:
+/usr/local/include/fst/arc-map.h:903:16: error: ‘Map’ has not been declared
+/usr/local/include/fst/arc-map.h:903:30: error: expected ‘(’ before ‘miter’
+/usr/local/include/fst/arc-map.h:903:30: error: expected ‘;’ before ‘miter’
+/usr/local/include/fst/arc-map.h:904:11: error: ‘miter’ was not declared in this scope
+/usr/local/include/fst/arc-map.h:904:20: error: ‘map_’ was not declared in this scope
+In file included from /usr/local/include/fst/replace.h:39:0,
+                 from /usr/local/include/fst/accumulator.h:36,
+                 from /usr/local/include/fst/label-reachable.h:32,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/replace-util.h: At global scope:
+/usr/local/include/fst/replace-util.h:63:11: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/replace.h:39:0,
+                 from /usr/local/include/fst/accumulator.h:36,
+                 from /usr/local/include/fst/label-reachable.h:32,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/replace-util.h:63:11: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/replace-util.h:75:21: error: ‘NonTerminalHash’ does not name a type
+/usr/local/include/fst/replace-util.h:182:3: error: ‘NonTerminalHash’ does not name a type
+/usr/local/include/fst/replace-util.h: In constructor ‘fst::ReplaceUtil<Arc>::ReplaceUtil(const std::vector<std::pair<typename Arc::Label, fst::MutableFst<A>*> >&, fst::ReplaceUtil<Arc>::Label, bool)’:
+/usr/local/include/fst/replace-util.h:205:5: error: ‘nonterminal_hash_’ was not declared in this scope
+/usr/local/include/fst/replace-util.h:210:15: error: ‘nonterminal_hash_’ was not declared in this scope
+/usr/local/include/fst/replace-util.h: In constructor ‘fst::ReplaceUtil<Arc>::ReplaceUtil(const std::vector<std::pair<typename Arc::Label, const fst::Fst<A>*> >&, fst::ReplaceUtil<Arc>::Label, bool)’:
+/usr/local/include/fst/replace-util.h:228:5: error: ‘nonterminal_hash_’ was not declared in this scope
+/usr/local/include/fst/replace-util.h:232:15: error: ‘nonterminal_hash_’ was not declared in this scope
+/usr/local/include/fst/replace-util.h: At global scope:
+/usr/local/include/fst/replace-util.h:240:11: error: ‘NonTerminalHash’ does not name a type
+/usr/local/include/fst/replace-util.h: In constructor ‘fst::ReplaceUtil<Arc>::ReplaceUtil(const std::vector<const fst::Fst<A>*>&, const int&, fst::ReplaceUtil<Arc>::Label, bool)’:
+/usr/local/include/fst/replace-util.h:245:7: error: class ‘fst::ReplaceUtil<Arc>’ does not have any field named ‘nonterminal_hash_’
+/usr/local/include/fst/replace-util.h:251:32: error: invalid type in declaration before ‘::’ token
+/usr/local/include/fst/replace-util.h:251:32: error: expected ‘;’ before ‘::’ token
+/usr/local/include/fst/replace-util.h:251:32: error: ‘::const_iterator’ has not been declared
+/usr/local/include/fst/replace-util.h:251:49: error: expected ‘;’ before ‘it’
+/usr/local/include/fst/replace-util.h:251:49: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/replace-util.h:252:29: error: request for member ‘begin’ in ‘nonterminal_hash’, which is of non-class type ‘const int’
+/usr/local/include/fst/replace-util.h:252:36: error: expected ‘)’ before ‘;’ token
+/usr/local/include/fst/replace-util.h:252:38: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/replace-util.h:252:61: error: request for member ‘end’ in ‘nonterminal_hash’, which is of non-class type ‘const int’
+/usr/local/include/fst/replace-util.h:252:72: error: expected ‘;’ before ‘)’ token
+/usr/local/include/fst/replace-util.h: In member function ‘void fst::ReplaceUtil<Arc>::GetDependencies(bool) const’:
+/usr/local/include/fst/replace-util.h:297:18: error: ‘NonTerminalHash’ has not been declared
+/usr/local/include/fst/replace-util.h:297:50: error: expected ‘(’ before ‘it’
+/usr/local/include/fst/replace-util.h:297:50: error: expected ‘;’ before ‘it’
+/usr/local/include/fst/replace-util.h:299:13: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/replace-util.h:299:19: error: ‘nonterminal_hash_’ was not declared in this scope
+/usr/local/include/fst/replace-util.h: In member function ‘void fst::ReplaceUtil<Arc>::ReplaceLabels(const std::vector<typename Arc::Label>&)’:
+/usr/local/include/fst/replace-util.h:426:3: error: reference to ‘unordered_set’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_set:42:0,
+                 from /usr/local/include/fst/util.h:27,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_set.h:173:11: error: candidates are: template<class _Value, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_set
+In file included from /usr/include/c++/4.7/unordered_set:46:0,
+                 from include/ben.h:13,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_set.h:279:11: error:                 template<class _Value, class _Hash, class _Pred, class _Alloc> class std::unordered_set
+In file included from /usr/local/include/fst/replace.h:39:0,
+                 from /usr/local/include/fst/accumulator.h:36,
+                 from /usr/local/include/fst/label-reachable.h:32,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/replace-util.h:426:22: error: expected primary-expression before ‘>’ token
+/usr/local/include/fst/replace-util.h:426:24: error: ‘label_set’ was not declared in this scope
+In file included from /usr/local/include/fst/state-table.h:29:0,
+                 from /usr/local/include/fst/replace.h:40,
+                 from /usr/local/include/fst/accumulator.h:36,
+                 from /usr/local/include/fst/label-reachable.h:32,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/bi-table.h: At global scope:
+/usr/local/include/fst/bi-table.h:109:3: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/state-table.h:29:0,
+                 from /usr/local/include/fst/replace.h:40,
+                 from /usr/local/include/fst/accumulator.h:36,
+                 from /usr/local/include/fst/label-reachable.h:32,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/bi-table.h:109:3: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/bi-table.h: In constructor ‘fst::HashBiTable<I, T, H, E>::HashBiTable(size_t, H*, E*)’:
+/usr/local/include/fst/bi-table.h:68:9: error: class ‘fst::HashBiTable<I, T, H, E>’ does not have any field named ‘entry2id_’
+/usr/local/include/fst/bi-table.h: In copy constructor ‘fst::HashBiTable<I, T, H, E>::HashBiTable(const fst::HashBiTable<I, T, H, E>&)’:
+/usr/local/include/fst/bi-table.h:76:9: error: class ‘fst::HashBiTable<I, T, H, E>’ does not have any field named ‘entry2id_’
+/usr/local/include/fst/bi-table.h: In member function ‘I fst::HashBiTable<I, T, H, E>::FindId(const T&, bool)’:
+/usr/local/include/fst/bi-table.h:88:17: error: ‘entry2id_’ was not declared in this scope
+/usr/local/include/fst/bi-table.h: At global scope:
+/usr/local/include/fst/bi-table.h:122:26: error: reference to ‘unordered_set’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_set:42:0,
+                 from /usr/local/include/fst/util.h:27,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_set.h:173:11: error: candidates are: template<class _Value, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_set
+In file included from /usr/include/c++/4.7/unordered_set:46:0,
+                 from include/ben.h:13,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_set.h:279:11: error:                 template<class _Value, class _Hash, class _Pred, class _Alloc> class std::unordered_set
+In file included from /usr/local/include/fst/state-table.h:29:0,
+                 from /usr/local/include/fst/replace.h:40,
+                 from /usr/local/include/fst/accumulator.h:36,
+                 from /usr/local/include/fst/label-reachable.h:32,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/bi-table.h:122:39: error: expected template-name before ‘<’ token
+/usr/local/include/fst/bi-table.h:122:39: error: expected ‘{’ before ‘<’ token
+/usr/local/include/fst/bi-table.h:122:39: error: expected unqualified-id before ‘<’ token
+/usr/local/include/fst/bi-table.h:521:3: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/state-table.h:29:0,
+                 from /usr/local/include/fst/replace.h:40,
+                 from /usr/local/include/fst/accumulator.h:36,
+                 from /usr/local/include/fst/label-reachable.h:32,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/bi-table.h:521:3: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/bi-table.h: In member function ‘I fst::ErasableBiTable<I, T, F>::FindId(const T&, bool)’:
+/usr/local/include/fst/bi-table.h:492:17: error: ‘entry2id_’ was not declared in this scope
+/usr/local/include/fst/bi-table.h: In member function ‘void fst::ErasableBiTable<I, T, F>::Erase(I)’:
+/usr/local/include/fst/bi-table.h:510:14: error: expected nested-name-specifier before ‘unordered_map’
+/usr/local/include/fst/bi-table.h:510:14: error: expected ‘(’ before ‘unordered_map’
+/usr/local/include/fst/bi-table.h:510:14: error: expected ‘;’ before ‘unordered_map’
+/usr/local/include/fst/bi-table.h:512:5: error: ‘entry2id_’ was not declared in this scope
+/usr/local/include/fst/bi-table.h:512:21: error: ‘it’ was not declared in this scope
+In file included from /usr/local/include/fst/accumulator.h:36:0,
+                 from /usr/local/include/fst/label-reachable.h:32,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/replace.h: At global scope:
+/usr/local/include/fst/replace.h:333:11: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/accumulator.h:36:0,
+                 from /usr/local/include/fst/label-reachable.h:32,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/replace.h:333:11: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/replace.h:859:11: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/accumulator.h:36:0,
+                 from /usr/local/include/fst/label-reachable.h:32,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/replace.h:859:11: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/replace.h:901:3: error: ‘StackPrefixHash’ does not name a type
+/usr/local/include/fst/replace.h:905:3: error: ‘NonTerminalHash’ does not name a type
+/usr/local/include/fst/replace.h: In constructor ‘fst::ReplaceFstImpl<A, T>::ReplaceFstImpl(const std::vector<std::pair<typename A::Label, const fst::Fst<Arc>*> >&, const fst::ReplaceFstOptions<A, T>&)’:
+/usr/local/include/fst/replace.h:374:7: error: ‘nonterminal_hash_’ was not declared in this scope
+/usr/local/include/fst/replace.h:398:25: error: ‘nonterminal_hash_’ was not declared in this scope
+/usr/local/include/fst/replace.h: In copy constructor ‘fst::ReplaceFstImpl<A, T>::ReplaceFstImpl(const fst::ReplaceFstImpl<A, T>&)’:
+/usr/local/include/fst/replace.h:440:9: error: class ‘fst::ReplaceFstImpl<A, T>’ does not have any field named ‘nonterminal_hash_’
+/usr/local/include/fst/replace.h: In member function ‘bool fst::ReplaceFstImpl<A, T>::CyclicDependencies() const’:
+/usr/local/include/fst/replace.h:469:45: error: ‘nonterminal_hash_’ was not declared in this scope
+/usr/local/include/fst/replace.h: In member function ‘bool fst::ReplaceFstImpl<A, T>::IsNonTerminal(fst::ReplaceFstImpl<A, T>::Label) const’:
+/usr/local/include/fst/replace.h:540:14: error: ‘NonTerminalHash’ has not been declared
+/usr/local/include/fst/replace.h:540:46: error: expected ‘(’ before ‘it’
+/usr/local/include/fst/replace.h:540:46: error: expected ‘;’ before ‘it’
+/usr/local/include/fst/replace.h:542:12: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/replace.h:542:18: error: ‘nonterminal_hash_’ was not declared in this scope
+/usr/local/include/fst/replace.h: In member function ‘bool fst::ReplaceFstImpl<A, T>::ComputeArc(const StateTuple&, const A&, A*, uint32)’:
+/usr/local/include/fst/replace.h:736:16: error: ‘NonTerminalHash’ has not been declared
+/usr/local/include/fst/replace.h:736:48: error: expected ‘(’ before ‘it’
+/usr/local/include/fst/replace.h:736:48: error: expected ‘;’ before ‘it’
+/usr/local/include/fst/replace.h:738:11: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/replace.h:738:17: error: ‘nonterminal_hash_’ was not declared in this scope
+/usr/local/include/fst/replace.h: In member function ‘fst::ReplaceFstImpl<A, T>::PrefixId fst::ReplaceFstImpl<A, T>::GetPrefixId(const fst::ReplaceFstImpl<A, T>::StackPrefix&)’:
+/usr/local/include/fst/replace.h:866:14: error: ‘StackPrefixHash’ has not been declared
+/usr/local/include/fst/replace.h:866:40: error: expected ‘(’ before ‘it’
+/usr/local/include/fst/replace.h:866:40: error: expected ‘;’ before ‘it’
+/usr/local/include/fst/replace.h:867:9: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/replace.h:867:15: error: ‘prefix_hash_’ was not declared in this scope
+In file included from /usr/local/include/fst/label-reachable.h:32:0,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/accumulator.h: At global scope:
+/usr/local/include/fst/accumulator.h:414:3: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/label-reachable.h:32:0,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/accumulator.h:414:3: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/accumulator.h: In destructor ‘fst::CacheLogAccumulatorData<A>::~CacheLogAccumulatorData()’:
+/usr/local/include/fst/accumulator.h:353:31: error: invalid type in declaration before ‘<’ token
+/usr/local/include/fst/accumulator.h:353:31: error: expected ‘;’ before ‘<’ token
+/usr/local/include/fst/accumulator.h:353:31: error: expected primary-expression before ‘<’ token
+/usr/local/include/fst/accumulator.h:353:39: error: expected primary-expression before ‘,’ token
+/usr/local/include/fst/accumulator.h:353:51: error: expected primary-expression before ‘>’ token
+/usr/local/include/fst/accumulator.h:353:52: error: ‘::iterator’ has not been declared
+/usr/local/include/fst/accumulator.h:353:52: note: suggested alternatives:
+In file included from /usr/include/c++/4.7/bits/stl_algobase.h:66:0,
+                 from /usr/include/c++/4.7/bits/char_traits.h:41,
+                 from /usr/include/c++/4.7/ios:41,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from src/runner.cpp:1:
+/usr/include/c++/4.7/bits/stl_iterator_base_types.h:119:12: note:   ‘std::iterator’
+/usr/include/c++/4.7/bits/stl_iterator_base_types.h:119:12: note:   ‘std::iterator’
+/usr/include/c++/4.7/bits/stl_iterator_base_types.h:119:12: note:   ‘std::iterator’
+In file included from /usr/local/include/fst/label-reachable.h:32:0,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/accumulator.h:353:63: error: expected ‘;’ before ‘it’
+/usr/local/include/fst/accumulator.h:353:63: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/accumulator.h:353:68: error: ‘cache_’ was not declared in this scope
+/usr/local/include/fst/accumulator.h:353:82: error: expected ‘)’ before ‘;’ token
+/usr/local/include/fst/accumulator.h:354:9: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/accumulator.h:354:15: error: ‘cache_’ was not declared in this scope
+/usr/local/include/fst/accumulator.h:355:13: error: expected ‘;’ before ‘)’ token
+/usr/local/include/fst/accumulator.h: In member function ‘std::vector<double>* fst::CacheLogAccumulatorData<A>::GetWeights(fst::CacheLogAccumulatorData<A>::StateId)’:
+/usr/local/include/fst/accumulator.h:362:14: error: expected nested-name-specifier before ‘unordered_map’
+/usr/local/include/fst/accumulator.h:362:14: error: expected ‘(’ before ‘unordered_map’
+/usr/local/include/fst/accumulator.h:362:14: error: expected ‘;’ before ‘unordered_map’
+/usr/local/include/fst/accumulator.h:363:9: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/accumulator.h:363:15: error: ‘cache_’ was not declared in this scope
+/usr/local/include/fst/accumulator.h: In member function ‘void fst::CacheLogAccumulatorData<A>::AddWeights(fst::CacheLogAccumulatorData<A>::StateId, std::vector<double>*)’:
+/usr/local/include/fst/accumulator.h:374:5: error: ‘cache_’ was not declared in this scope
+/usr/local/include/fst/accumulator.h: In member function ‘void fst::CacheLogAccumulatorData<A>::GC(bool)’:
+/usr/local/include/fst/accumulator.h:398:14: error: expected nested-name-specifier before ‘unordered_map’
+/usr/local/include/fst/accumulator.h:398:14: error: expected ‘(’ before ‘unordered_map’
+/usr/local/include/fst/accumulator.h:398:14: error: expected ‘;’ before ‘unordered_map’
+/usr/local/include/fst/accumulator.h:399:12: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/accumulator.h:399:18: error: ‘cache_’ was not declared in this scope
+In file included from /usr/local/include/fst/label-reachable.h:34:0,
+                 from /usr/local/include/fst/lookahead-matcher.h:28,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/interval-set.h: In member function ‘void fst::IntervalSet<T>::Intersect(const fst::IntervalSet<T>&, fst::IntervalSet<T>*) const’:
+/usr/local/include/fst/interval-set.h:221:16: error: parse error in template argument list
+/usr/local/include/fst/interval-set.h: In member function ‘void fst::IntervalSet<T>::Complement(T, fst::IntervalSet<T>*) const’:
+/usr/local/include/fst/interval-set.h:243:18: error: parse error in template argument list
+/usr/local/include/fst/interval-set.h:250:16: error: parse error in template argument list
+/usr/local/include/fst/interval-set.h: In member function ‘bool fst::IntervalSet<T>::Contains(const fst::IntervalSet<T>&) const’:
+/usr/local/include/fst/interval-set.h:351:54: error: expected ‘)’ before ‘it1’
+In file included from /usr/local/include/fst/lookahead-matcher.h:28:0,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/label-reachable.h: At global scope:
+/usr/local/include/fst/label-reachable.h:60:3: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/lookahead-matcher.h:28:0,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/label-reachable.h:60:3: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/label-reachable.h:107:3: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/lookahead-matcher.h:28:0,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/label-reachable.h:107:3: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/label-reachable.h: In member function ‘fst::LabelReachableData<L>::Label fst::LabelReachableData<L>::FinalLabel()’:
+/usr/local/include/fst/label-reachable.h:68:22: error: ‘label2index_’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h: In member function ‘bool fst::LabelReachableData<L>::Write(std::ostream&)’:
+/usr/local/include/fst/label-reachable.h:89:24: error: ‘label2index_’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h: At global scope:
+/usr/local/include/fst/label-reachable.h:395:9: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/lookahead-matcher.h:28:0,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/label-reachable.h:395:9: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/label-reachable.h:547:3: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/lookahead-matcher.h:28:0,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/label-reachable.h:547:3: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/label-reachable.h: In member function ‘fst::LabelReachable<A, S>::Label fst::LabelReachable<A, S>::Relabel(fst::LabelReachable<A, S>::Label)’:
+/usr/local/include/fst/label-reachable.h:203:5: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/lookahead-matcher.h:28:0,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/label-reachable.h:203:24: error: expected primary-expression before ‘,’ token
+/usr/local/include/fst/label-reachable.h:203:31: error: expected primary-expression before ‘>’ token
+/usr/local/include/fst/label-reachable.h:203:34: error: ‘label2index’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h: In member function ‘void fst::LabelReachable<A, S>::RelabelPairs(std::vector<std::pair<typename A::Label, typename A::Label> >*, bool)’:
+/usr/local/include/fst/label-reachable.h:242:5: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/lookahead-matcher.h:28:0,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/label-reachable.h:242:24: error: expected primary-expression before ‘,’ token
+/usr/local/include/fst/label-reachable.h:242:31: error: expected primary-expression before ‘>’ token
+/usr/local/include/fst/label-reachable.h:242:34: error: ‘label2index’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h:244:32: error: invalid type in declaration before ‘<’ token
+/usr/local/include/fst/label-reachable.h:244:32: error: expected ‘;’ before ‘<’ token
+/usr/local/include/fst/label-reachable.h:244:32: error: expected primary-expression before ‘<’ token
+/usr/local/include/fst/label-reachable.h:244:38: error: expected primary-expression before ‘,’ token
+/usr/local/include/fst/label-reachable.h:244:45: error: expected primary-expression before ‘>’ token
+/usr/local/include/fst/label-reachable.h:244:46: error: ‘::const_iterator’ has not been declared
+/usr/local/include/fst/label-reachable.h:245:14: error: expected ‘;’ before ‘it’
+/usr/local/include/fst/label-reachable.h:245:14: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h:245:38: error: expected ‘)’ before ‘;’ token
+/usr/local/include/fst/label-reachable.h:245:40: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h:245:69: error: expected ‘;’ before ‘)’ token
+/usr/local/include/fst/label-reachable.h:252:18: error: expected nested-name-specifier before ‘unordered_map’
+/usr/local/include/fst/label-reachable.h:252:18: error: expected ‘(’ before ‘unordered_map’
+/usr/local/include/fst/label-reachable.h:252:18: error: expected ‘;’ before ‘unordered_map’
+/usr/local/include/fst/label-reachable.h: In member function ‘void fst::LabelReachable<A, S>::TransformFst()’:
+/usr/local/include/fst/label-reachable.h:423:15: error: ‘label2state_’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h:428:27: error: ‘label2state_’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h:437:13: error: ‘label2state_’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h:442:44: error: ‘label2state_’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h: In member function ‘void fst::LabelReachable<A, S>::FindIntervals(fst::LabelReachable<A, S>::StateId)’:
+/usr/local/include/fst/label-reachable.h:479:5: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/lookahead-matcher.h:28:0,
+                 from /usr/local/include/fst/lookahead-filter.h:29,
+                 from /usr/local/include/fst/compose.h:31,
+                 from include/ben.h:28,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/label-reachable.h:479:24: error: expected primary-expression before ‘,’ token
+/usr/local/include/fst/label-reachable.h:479:31: error: expected primary-expression before ‘>’ token
+/usr/local/include/fst/label-reachable.h:479:34: error: ‘label2index’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h:480:32: error: invalid type in declaration before ‘<’ token
+/usr/local/include/fst/label-reachable.h:480:32: error: expected ‘;’ before ‘<’ token
+/usr/local/include/fst/label-reachable.h:480:32: error: expected primary-expression before ‘<’ token
+/usr/local/include/fst/label-reachable.h:480:38: error: expected primary-expression before ‘,’ token
+/usr/local/include/fst/label-reachable.h:480:47: error: expected primary-expression before ‘>’ token
+/usr/local/include/fst/label-reachable.h:480:48: error: ‘::const_iterator’ has not been declared
+/usr/local/include/fst/label-reachable.h:481:14: error: expected ‘;’ before ‘it’
+/usr/local/include/fst/label-reachable.h:481:14: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h:481:19: error: ‘label2state_’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h:481:39: error: expected ‘)’ before ‘;’ token
+/usr/local/include/fst/label-reachable.h:482:10: error: ‘it’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h:482:16: error: ‘label2state_’ was not declared in this scope
+/usr/local/include/fst/label-reachable.h:483:14: error: expected ‘;’ before ‘)’ token
+In file included from /usr/local/include/fst/extensions/pdt/compose.h:26:0,
+                 from include/ben.h:29,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/extensions/pdt/pdt.h: At global scope:
+/usr/local/include/fst/extensions/pdt/pdt.h:141:3: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/extensions/pdt/compose.h:26:0,
+                 from include/ben.h:29,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/extensions/pdt/pdt.h:141:3: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/extensions/pdt/pdt.h:142:3: error: reference to ‘unordered_map’ is ambiguous
+In file included from /usr/include/c++/4.7/tr1/unordered_map:42:0,
+                 from /usr/local/include/fst/util.h:24,
+                 from /usr/local/include/fst/weight.h:82,
+                 from /usr/local/include/fst/pair-weight.h:29,
+                 from /usr/local/include/fst/expectation-weight.h:36,
+                 from /usr/local/include/fst/arc.h:28,
+                 from /usr/local/include/fst/fst.h:34,
+                 from include/ben.h:25,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/tr1/unordered_map.h:180:11: error: candidates are: template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::tr1::unordered_map
+In file included from /usr/include/c++/4.7/unordered_map:46:0,
+                 from include/ben.h:11,
+                 from src/runner.cpp:2:
+/usr/include/c++/4.7/bits/unordered_map.h:262:11: error:                 template<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> class std::unordered_map
+In file included from /usr/local/include/fst/extensions/pdt/compose.h:26:0,
+                 from include/ben.h:29,
+                 from src/runner.cpp:2:
+/usr/local/include/fst/extensions/pdt/pdt.h:142:3: error: ‘unordered_map’ does not name a type
+/usr/local/include/fst/extensions/pdt/pdt.h: In constructor ‘fst::PdtStack<K, L>::PdtStack(const std::vector<std::pair<L, L> >&)’:
+/usr/local/include/fst/extensions/pdt/pdt.h:62:7: error: ‘paren_map_’ was not declared in this scope
+/usr/local/include/fst/extensions/pdt/pdt.h: In member function ‘fst::PdtStack<K, L>::StackId fst::PdtStack<K, L>::Find(fst::PdtStack<K, L>::StackId, fst::PdtStack<K, L>::Label)’:
+/usr/local/include/fst/extensions/pdt/pdt.h:89:14: error: expected nested-name-specifier before ‘unordered_map’
+/usr/local/include/fst/extensions/pdt/pdt.h:89:14: error: expected ‘(’ before ‘unordered_map’
+/usr/local/include/fst/extensions/pdt/pdt.h:89:14: error: expected ‘;’ before ‘unordered_map’
+/usr/local/include/fst/extensions/pdt/pdt.h:91:9: error: ‘pit’ was not declared in this scope
+/usr/local/include/fst/extensions/pdt/pdt.h:91:16: error: ‘paren_map_’ was not declared in this scope
+/usr/local/include/fst/extensions/pdt/pdt.h:93:24: error: ‘pit’ was not declared in this scope
+/usr/local/include/fst/extensions/pdt/pdt.h:96:27: error: ‘child_map_’ was not declared in this scope
+/usr/local/include/fst/extensions/pdt/pdt.h: In member function ‘ssize_t fst::PdtStack<K, L>::ParenId(fst::PdtStack<K, L>::Label) const’:
+/usr/local/include/fst/extensions/pdt/pdt.h:123:14: error: expected nested-name-specifier before ‘unordered_map’
+/usr/local/include/fst/extensions/pdt/pdt.h:123:14: error: expected ‘(’ before ‘unordered_map’
+/usr/local/include/fst/extensions/pdt/pdt.h:123:14: error: expected ‘;’ before ‘unordered_map’
+/usr/local/include/fst/extensions/pdt/pdt.h:125:9: error: ‘pit’ was not declared in this scope
+/usr/local/include/fst/extensions/pdt/pdt.h:125:16: error: ‘paren_map_’ was not declared in this scope
+/usr/local/include/fst/extensions/pdt/pdt.h:127:12: error: ‘pit’ was not declared in this scope
+In file included from src/runner.cpp:2:0:
+include/ben.h: At global scope:
+include/ben.h:49:35: error: ‘Weight’ does not name a type
+include/ben.h:49:35: note: (perhaps ‘typename fst::ArcTpl<W>::Weight’ was intended)
+include/ben.h:49:43: error: ISO C++ forbids declaration of ‘w’ with no type [-fpermissive]
+include/ben.h: In constructor ‘fst::GrammarInfo::GrammarInfo(fst::Symbol, fst::Symbol, fst::Symbol, std::vector<std::vector<long long int> >, std::vector<long long int>)’:
+include/ben.h:66:48: error: ‘invalid_argument’ was not declared in this scope
+include/ben.h:68:60: error: ‘invalid_argument’ was not declared in this scope
+include/ben.h:70:61: error: ‘invalid_argument’ was not declared in this scope
+include/ben.h: In static member function ‘static fst::GrammarInfo* fst::GrammarInfo::Read(std::string, std::string, std::string)’:
+include/ben.h:87:47: error: ‘invalid_argument’ was not declared in this scope
+include/ben.h:89:58: error: ‘invalid_argument’ was not declared in this scope
+include/ben.h:91:49: error: ‘invalid_argument’ was not declared in this scope
+include/ben.h: In static member function ‘static bool fst::GrammarInfo::ReadLabelFile(const string&, std::vector<long long int>*, fst::Symbol)’:
+include/ben.h:140:51: error: invalid conversion from ‘const char*’ to ‘char*’ [-fpermissive]
+include/ben.h: In member function ‘fst::Symbol fst::GrammarInfo::ToTerm(fst::Symbol)’:
+include/ben.h:164:5: error: expected ‘;’ before ‘else’
+include/ben.h: In member function ‘bool fst::GrammarInfo::SymbolCanReach(fst::Symbol, fst::Symbol)’:
+include/ben.h:169:89: error: ‘invalid_argument’ was not declared in this scope
+include/ben.h: In member function ‘void fst::GrammarInfo::ValidateRule(fst::Rule)’:
+include/ben.h:194:70: error: ‘invalid_argument’ was not declared in this scope
+include/ben.h:199:91: error: ‘invalid_argument’ was not declared in this scope
+include/ben.h:204:100: error: ‘invalid_argument’ was not declared in this scope
+include/ben.h:207:104: error: ‘invalid_argument’ was not declared in this scope
+include/ben.h: In member function ‘size_t fst::SetFilterState<T>::Hash() const’:
+include/ben.h:248:5: error: need ‘typename’ before ‘std::set<T>::const_iterator’ because ‘std::set<T>’ is a dependent scope
+include/ben.h:248:28: error: expected ‘;’ before ‘iter’
+include/ben.h:249:10: error: ‘iter’ was not declared in this scope
+include/ben.h: In member function ‘const bool fst::SetFilterState<T>::Contains(T) const’:
+include/ben.h:269:76: error: expected ‘;’ before ‘}’ token
+include/ben.h: At global scope:
+include/ben.h:281:11: error: invalid use of template-name ‘fst::RuleArc’ without an argument list
+include/ben.h:320:25: error: ‘Arc’ has not been declared
+include/ben.h:320:36: error: ‘Arc’ has not been declared
+include/ben.h:324:1: error: expected ‘;’ after class definition
+include/ben.h: In constructor ‘fst::BenComposeFilter<M1, M2>::BenComposeFilter(const fst::GrammarInfo&, const FST&, const PDT&, M1*, M2*)’:
+include/ben.h:288:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘matcher1_’
+include/ben.h:289:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘matcher2_’
+include/ben.h:290:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘fst_’
+include/ben.h:290:18: error: ‘matcher1_’ was not declared in this scope
+include/ben.h:291:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘pdt_’
+include/ben.h:291:18: error: ‘matcher2_’ was not declared in this scope
+include/ben.h:292:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘s1_’
+include/ben.h:293:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘s2_’
+include/ben.h:294:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘f_’
+include/ben.h: In copy constructor ‘fst::BenComposeFilter<M1, M2>::BenComposeFilter(const fst::BenComposeFilter<M1, M2>&, bool)’:
+include/ben.h:297:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘matcher1_’
+include/ben.h:298:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘matcher2_’
+include/ben.h:299:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘fst_’
+include/ben.h:299:18: error: ‘matcher1_’ was not declared in this scope
+include/ben.h:300:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘pdt_’
+include/ben.h:300:18: error: ‘matcher2_’ was not declared in this scope
+include/ben.h:301:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘s1_’
+include/ben.h:302:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘s2_’
+include/ben.h:303:13: error: class ‘fst::BenComposeFilter<M1, M2>’ does not have any field named ‘f_’
+include/ben.h: In destructor ‘fst::BenComposeFilter<M1, M2>::~BenComposeFilter()’:
+include/ben.h:306:12: error: ‘matcher1_’ was not declared in this scope
+include/ben.h:307:12: error: ‘matcher2_’ was not declared in this scope
+include/ben.h: In member function ‘void fst::BenComposeFilter<M1, M2>::SetState(fst::StateId, fst::StateId, const FilterState&)’:
+include/ben.h:313:9: error: ‘s1_’ was not declared in this scope
+include/ben.h:313:22: error: ‘s2_’ was not declared in this scope
+include/ben.h:313:40: error: ‘f_’ was not declared in this scope
+include/ben.h:315:5: error: ‘s1_’ was not declared in this scope
+include/ben.h:316:5: error: ‘s2_’ was not declared in this scope
+include/ben.h:317:5: error: ‘f_’ was not declared in this scope
+include/ben.h: In member function ‘fst::BenComposeFilter<M1, M2>::FilterState fst::BenComposeFilter<M1, M2>::FilterArc(int*, int*) const’:
+include/ben.h:321:9: error: ‘f_’ was not declared in this scope
+include/ben.h:321:27: error: request for member ‘rule’ in ‘arc2->’, which is of non-class type ‘int’
+include/ben.h:323:3: error: expected ‘;’ before ‘}’ token
+include/ben.h: In function ‘bool fst::ReadNumberedStrings(const string&, std::vector<std::basic_string<char> >*)’:
+include/ben.h:364:11: error: ‘kLineLen’ was not declared in this scope
+include/ben.h:369:23: error: ‘s1’ was not declared in this scope
+include/ben.h:371:35: error: ‘line’ was not declared in this scope
+include/ben.h:378:24: error: ‘s2’ was not declared in this scope
+include/ben.h: At global scope:
+include/ben.h:405:25: error: invalid use of template-name ‘fst::PairFilterState’ without an argument list
+include/ben.h:405:42: error: ISO C++ forbids declaration of ‘f’ with no type [-fpermissive]
+include/ben.h: In member function ‘bool fst::TripleFilterState<F1, F2, F3>::operator!=(const int&) const’:
+include/ben.h:406:21: error: request for member ‘f1_’ in ‘f’, which is of non-class type ‘const int’
+include/ben.h:406:37: error: request for member ‘f2_’ in ‘f’, which is of non-class type ‘const int’
+include/ben.h:406:44: error: ‘f3’ was not declared in this scope
+include/ben.h:406:52: error: request for member ‘f3_’ in ‘f’, which is of non-class type ‘const int’
+make: *** [build/runner.o] Error 1
